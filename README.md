@@ -22,7 +22,7 @@ Welcome to MyVirtualClassroom! This project is a web-based virtual classroom app
 
 - **Frontend:** HTML, CSS, and JavaScript for creating the user interface and ensuring a seamless user experience.
 
-- **Database:** Utilizes a database (mention the specific database, e.g., SQL Server, MySQL) for storing user information, assignments, and other relevant data.
+- **Database:** Utilizes SQL Server for storing user information, assignments, and other relevant data.
 
 ## Getting Started
 
