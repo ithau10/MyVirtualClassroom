@@ -4,7 +4,7 @@ Follow these steps to set up and run MyVirtualClassroom locally.
 
 ## Prerequisites
 
-1. **Visual Studio Code:** [Download and install Visual Studio Code](https://code.visualstudio.com/download)
+1. **Visual Studio:** [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/)
 2. **.NET SDK:** [Download and install .NET SDK](https://dotnet.microsoft.com/download)
 3. **SQL Server:** [Download and install SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
@@ -66,13 +66,15 @@ cd MyVirtualClassroom
    - Open the `web.config` file in your project.
    - Locate the `"ConnectionString"` under `"ConnectionStrings"`.
 
-     ```xml
+     
+     xml
      <connectionStrings>
   <add name="OTeachingConnectionString" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
   <add name="OTeaching" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True"/>
   <add name="OTeachingConnectionString2" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
       </connectionStrings>
-     ```
+      
+     
 
    - Update the connection string with your SQL Server details.
 
