@@ -1,4 +1,4 @@
-<span style="color:green"># Installation Guide</span>
+# Installation Guide
 
 Follow these steps to set up and run MyVirtualClassroom locally.
 
