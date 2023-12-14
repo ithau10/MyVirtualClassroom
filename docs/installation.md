@@ -67,12 +67,14 @@ cd MyVirtualClassroom
    - Locate the `"ConnectionString"` under `"ConnectionStrings"`.
 
      
-     xml
+     ```xml
      <connectionStrings>
-  <add name="OTeachingConnectionString" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
-  <add name="OTeaching" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True"/>
-  <add name="OTeachingConnectionString2" connectionString="Data Source=DESKTOP-xcsv78;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
-      </connectionStrings>
+        <add name="OTeachingConnectionString" connectionString="Data Source=DESKTOP-1P0GCC5;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
+         <add name="OTeaching" connectionString="Data Source=DESKTOP-1P0GCC5;Initial Catalog=OTeaching;Integrated Security=True"/>
+      <add name="OTeachingConnectionString2" connectionString="Data Source=DESKTOP-1P0GCC5;Initial Catalog=OTeaching;Integrated Security=True" providerName="System.Data.SqlClient"/>
+ 
+     </connectionStrings>
+     ```
       
      
 
